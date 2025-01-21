@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky install & Generate Prisma",
+    "prepare": "husky install && Generate Prisma",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
